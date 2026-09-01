@@ -1,5 +1,7 @@
 # Echo Chamber Buster
 
+![Echo Chamber Buster](assets/banner.jpg)
+
 Identify bot and astroturf accounts in Reddit archive data.
 
 Echo Chamber Buster analyzes the full public history of a Reddit
