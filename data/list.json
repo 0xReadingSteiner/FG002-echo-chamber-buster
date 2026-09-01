@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "asOf": "2026-09-01T00:00:00Z",
+  "clusters": [
+    {
+      "id": "example-cluster",
+      "label": "Example cluster",
+      "brands": [
+        "ExampleBrand"
+      ],
+      "accounts": [
+        {
+          "name": "example_account",
+          "note": "Placeholder — replace with a curated cluster to enable the listed-account signal."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+.dcs-badge {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.dcs-pending {
+  background: #607d8b;
+}
+
+.dcs-low {
+  background: #2e7d32;
+}
+
+.dcs-elevated {
+  background: #ed6c02;
+}
+
+.dcs-high {
+  background: #d32f2f;
+}
+
+.dcs-listed {
+  background: #7b1fa2;
+}
+
+.dcs-scanning {
+  background: #1976d2;
+}
+
+.dcs-error {
+  background: #616161;
+  text-decoration: line-through;
+  opacity: 0.85;
+}
+
+.dcs-unknown {
+  background: #455a64;
+}
+
+#dcs-panel {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 999999;
+  width: 380px;
+  max-width: calc(100vw - 32px);
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 12px;
+  font: 12px/1.45 system-ui, sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+#dcs-panel h2 {
+  margin: 0 24px 8px 0;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.dcs-panel-close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dcs-status {
+  margin-bottom: 8px;
+  white-space: pre-wrap;
+}
+
+.dcs-evidence {
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow: auto;
+  background: #f6f6f6;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  border-radius: 6px;
+  margin: 8px 0 0;
+}
+
+.dcs-button {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #bbbbbb;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.dcs-button:hover {
+  background: #e5e5e5;
+}
+
+.dcs-disclaimer {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e0e0e0;
+  color: #888888;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.dcs-text-low {
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.dcs-text-elevated {
+  color: #ed6c02;
+  font-weight: 700;
+}
+
+.dcs-text-high {
+  color: #d32f2f;
+  font-weight: 700;
+}
+
+.dcs-text-unknown {
+  color: #455a64;
+  font-weight: 700;
+}
